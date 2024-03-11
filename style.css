@@ -1,0 +1,1249 @@
+/* Setting global box model and typography */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden; /* Hides horizontal overflow */
+}
+
+/* Setting background color for the body */
+body {
+  background: #b89d88;
+}
+
+/* Styling paragraphs */
+p {
+  letter-spacing: 0.2px;
+  line-height: 26px;
+}
+
+/* Styling the hero section */
+.hero_section {
+  background-image: url(image/bg1.jpg); /* Setting background image */
+  background-size: cover; /* Ensuring background covers the entire area */
+  height: 830px; /* Setting height */
+  background-repeat: no-repeat; /* Preventing background from repeating */
+  display: flex; /* Setting flex display for content alignment */
+  padding-top: 95px; /* Adding padding */
+  padding-left: 100px; /* Adding padding */
+}
+
+/* Styling images within the hero section */
+.hero_section img {
+  width: 752px; /* Setting width */
+  height: 500px; /* Setting height */
+}
+
+/* Styling text within the hero section */
+.hero_text h1,
+.hero_text p {
+  color: black; /* Setting text color */
+  width: 752px; /* Setting width */
+}
+
+/* Styling the heading within the hero section */
+.hero_text h1 {
+  letter-spacing: 3px; /* Setting letter spacing */
+  font-size: 50px; /* Setting font size */
+  font-weight: 400; /* Setting font weight */
+  margin-top: 100px; /* Adding top margin */
+}
+
+/* Styling paragraphs within the hero section */
+.hero_text p {
+    width: 700px;
+  color: black; /* Setting text color */
+  font-size: 18px; /* Setting font size */
+  font-weight: 100; /* Setting font weight */
+  margin-top: 30px; /* Adding top margin */
+  margin-bottom: 30px; /* Adding bottom margin */
+}
+
+/* Styling buttons within the hero section */
+.hero_text button {
+  width: 280px; /* Setting width */
+  height: 70px; /* Setting height */
+  padding: 20px; /* Adding padding */
+  font-size: 24px; /* Setting font size */
+  font-weight: 600; /* Setting font weight */
+  background-color: #b89d88; /* Setting background color */
+  color: #fff; /* Setting text color */
+  border-radius: 5px; /* Adding border radius */
+  border: none; /* Removing border */
+}
+
+.hero_text button:hover {
+  width: 280px; /* Setting width */
+  height: 70px; /* Setting height */
+  padding: 20px; /* Adding padding */
+  font-size: 26px; /* Setting font size */
+  font-weight: 600; /* Setting font weight */
+  background-color: #000000; /* Setting background color */
+  color: #fff; /* Setting text color */
+  border-radius: 5px; /* Adding border radius */
+  border: none; /* Removing border */
+  transition: 0.5s;
+}
+
+/* Styling the mid section */
+.mid_section {
+  background-image: url(image/back4new.jpg); /* Setting background image */
+  background-size: 1830px 2896px; /* Setting background size */
+  background-repeat: no-repeat; /* Preventing background from repeating */
+  display: flex; /* Setting flex display for content alignment */
+  flex-direction: column; /* Setting flex direction */
+  align-items: center; /* Aligning items to center */
+}
+
+/* Styling titles within the mid section */
+.title {
+  margin-top: 143px; /* Adding top margin */
+  color: black; /* Setting text color */
+  width: 800px; /* Setting width */
+  height: 100px; /* Setting height */
+  text-align: center; /* Aligning text to center */
+}
+
+/* Styling paragraphs within the title */
+.title p {
+  padding-top: 10px; /* Adding top padding */
+  padding-left: 40px; /* Adding left padding */
+  margin-left: 70px; /* Adding left margin */
+}
+
+/* Styling boxes */
+.box {
+  width: 1080px; /* Setting width */
+  height: 300px; /* Setting height */
+  justify-content: center; /* Centering content horizontally */
+  display: flex; /* Setting flex display for content alignment */
+}
+
+/* Styling headings within the text */
+.text h2 {
+  text-align: center; /* Aligning text to center */
+}
+
+/* Styling image containers */
+.image-container {
+  width: 256px; /* Setting width */
+  padding: 10px; /* Adding padding */
+  border-radius: 20px; /* Adding border radius */
+}
+
+/* Hover effect for image containers */
+.image-container:hover {
+  transition: 0.3s linear; /* Adding transition effect */
+  transform: scale(1.3); /* Scaling the image on hover */
+}
+
+/* Styling the feature row */
+.row_feature {
+  width: 1080px; /* Setting width */
+  margin-top: 150px; /* Adding top margin */
+  margin: auto; /* Centering horizontally */
+}
+
+/* Styling the About section */
+/*--------------------------------------------ABOUT------------------------------------------*/
+.About {
+  margin-top: 100px; /* Adding top margin */
+  width: 1200px; /* Setting width */
+  height: 850px; /* Setting height */
+  justify-content: center; /* Centering content horizontally */
+  display: flex; /* Setting flex display */
+}
+
+/* Styling rows within the About section */
+.row {
+  display: flex; /* Setting flex display */
+  justify-content: space-between; /* Distributing space between elements */
+  flex-wrap: wrap; /* Allowing items to wrap */
+}
+
+/* Styling columns within the About section */
+.about-col-1 img {
+  width: 480px; /* Setting width */
+  height: 670px; /* Setting height */
+  border-radius: 20px; /* Adding border radius */
+}
+
+/* Adding hover effect to images within the About section */
+.about-col-1 img:hover {
+  transition: smooth; /* Smoothing transition */
+  border: 5px solid rgb(88, 60, 134); /* Adding border on hover */
+}
+
+.about-col-2 h1 {
+  margin-bottom: 10px; /* Adding bottom margin */
+}
+
+.about-col-2 {
+  width: 650px; /* Setting width */
+  padding: 30px; /* Adding padding */
+  margin-top: 20px; /* Adding top margin */
+}
+
+/* Styling titles from the navigation bar */
+.sub-tittle {
+  font-size: 36px; /* Setting font size */
+  font-weight: 600; /* Setting font weight */
+  color: black; /* Setting color */
+}
+
+/* Styling tab titles */
+.tab-titles {
+  display: flex; /* Setting flex display */
+  margin-top: 20px; /* Adding top margin */
+  margin-bottom: 15px; /* Adding bottom margin */
+}
+
+.tab-links {
+  margin-right: 50px; /* Adding right margin */
+  font-size: 17px; /* Setting font size */
+  font-weight: 500; /* Setting font weight */
+  cursor: pointer; /* Setting cursor */
+  position: relative; /* Setting position */
+}
+
+/* Styling active tab link indicator */
+.tab-links::after {
+  content: ""; /* Adding pseudo-element */
+  width: 0; /* Setting width */
+  height: 2px; /* Setting height */
+  background: #ff004f; /* Setting background color */
+  position: absolute; /* Setting position */
+  left: 0; /* Positioning left */
+  bottom: 1px; /* Positioning bottom */
+  transition: 0.7s; /* Adding transition */
+}
+
+.tab-links.active-link::after {
+  width: 50px; /* Setting width */
+}
+
+.tab-contents ul li {
+  margin: 10px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  color: black;
+  font-size: 15px;
+  list-style: circle;
+}
+
+.tab-contents {
+  display: none; /* makes the list of tabs  invisible */
+}
+.tab-contents.active-tab {
+  display: block; /*makes the content visible*/
+}
+/* Styling headings within tab contents */
+.tab-contents h2 {
+  height: 50px; /* Setting height */
+  margin-left: 200px; /* Adding left margin */
+}
+
+/* Styling order button */
+.order_button {
+  width: 160px; /* Setting width */
+  height: 50px; /* Setting height */
+  padding: 20px; /* Adding padding */
+  font-size: 20px; /* Setting font size */
+  font-weight: 10px; /* Setting font weight */
+  background-color: transparent; /* Setting background color */
+  color: black; /* Setting text color */
+  padding: 5px; /* Adding padding */
+  border-radius: 5px; /* Adding border radius */
+  border: black 2px solid; /* Setting border */
+  margin-top: 50px; /* Adding top margin */
+  margin-bottom: 20px; /* Adding bottom margin */
+}
+
+/* Styling hover effect on order button */
+.order_button:hover {
+  width: 160px; /* Setting width */
+  height: 50px; /* Setting height */
+  padding: 20px; /* Adding padding */
+  font-size: 21px; /* Setting font size */
+  font-weight: 10px; /* Setting font weight */
+  background-color: black; /* Setting background color */
+  color: #fff; /* Setting text color */
+  padding: 5px; /* Adding padding */
+  border-radius: 5px; /* Adding border radius */
+  border: black 2px solid; /* Setting border */
+  margin-top: 50px; /* Adding top margin */
+  transition: 0.5s ease; /* Adding transition */
+}
+
+/* Styling title2 for chefs section */
+.title2 {
+  color: black; /* Setting color */
+  width: 500px; /* Setting width */
+  height: 80px; /* Setting height */
+  text-align: center; /* Aligning text center */
+}
+
+.title p {
+  padding-top: 10px; /* Adding top padding */
+  padding-left: 40px; /* Adding left padding */
+}
+
+/* Styling images in chefs section */
+.chefs .chef_list {
+  width: 1080px; /* Setting width */
+  height: 800px; /* Setting height */
+  margin: 0 auto; /* Centering horizontally */
+  display: flex; /* Setting flex display */
+  flex-wrap: wrap; /* Allowing items to wrap */
+  justify-content: center; /* Centering content horizontally */
+}
+
+.chefs .chef_list .profile {
+  width: 320px; /* Setting width */
+  height: 320px; /* Setting height */
+  margin: 0 5px; /* Adding margin */
+  display: flex; /* Setting flex display */
+  align-items: center; /* Aligning items vertically */
+  justify-content: center; /* Centering content horizontally */
+  position: relative; /* Setting position */
+  transition: 0.4s; /* Adding transition */
+}
+
+.chefs .chef_list .profile:hover {
+  height: 320px; /* Setting height on hover */
+}
+
+.chefs .chef_list .profile img {
+  width: 250px; /* Setting width */
+  height: 250px; /* Setting height */
+  object-fit: cover; /* Setting object fit */
+  cursor: pointer; /* Setting cursor */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5); /* Adding box shadow */
+  transition: 0.4s; /* Adding transition */
+}
+
+.chefs .chef_list .profile:hover img {
+  width: 250px; /* Setting width on hover */
+  height: 250px; /* Setting height on hover */
+  border-radius: 20px; /* Adding border radius on hover */
+  margin-top: -69px; /* Adjusting margin on hover */
+}
+
+.chefs .chef_list .profile .info1 {
+  position: absolute; /* Setting position */
+  bottom: 0; /* Positioning bottom */
+}
+
+.chefs .chef_list .profile .info1 {
+  position: absolute; /* Setting position */
+  opacity: 1; /* Setting opacity */
+  width: 270px; /* Setting width */
+  height: 50px; /* Setting height */
+  text-align: center; /* Aligning text center */
+  background-color: #b89d88; /* Setting background color */
+  border-radius: 5px; /* Adding border radius */
+  font-size: 13px; /* Setting font size */
+  padding-top: 10px; /* Adding top padding */
+}
+
+/* Styling chef profile info on hover */
+.chefs .chef_list .profile:hover .info1 {
+  position: absolute; /* Positioning */
+  bottom: 0; /* Aligning at the bottom */
+  opacity: 0; /* Setting opacity */
+  transition: 0.2s; /* Adding transition */
+}
+
+/* Styling chef profile info */
+.chefs .chef_list .profile .info {
+  position: absolute; /* Positioning */
+  text-align: center; /* Centering text */
+  top: 25px; /* Setting top position */
+  transition: 0.4s; /* Adding transition */
+  opacity: 0; /* Setting opacity */
+}
+
+/* Showing chef profile info on hover */
+.chefs .chef_list .profile:hover .info {
+  top: 200px; /* Changing top position */
+  opacity: 1; /* Changing opacity */
+  margin-top: 10px; /* Adding top margin */
+  background-color: #b89d88; /* Changing background color */
+  border-radius: 10px; /* Adding border radius */
+}
+
+/* Styling chef profile info text */
+.chefs .chef_list .profile .info .name {
+  color: #fac031; /* Setting text color */
+  margin-bottom: 15px; /* Adding bottom margin */
+  padding-top: 10px; /* Adding top padding */
+}
+
+.chefs .chef_list .profile .info .bio {
+  width: 70%; /* Setting width */
+  text-align: center; /* Centering text */
+  margin: 0 auto 5px auto; /* Setting margins */
+}
+
+/* Styling food of the month section */
+.food_month {
+  width: fit-content; /* Setting width */
+  display: flex; /* Setting flex display */
+  flex-wrap: wrap; /* Allowing items to wrap */
+  align-items: center; /* Aligning items vertically */
+  margin-top: 90px; /* Adding top margin */
+  margin-left: 40px; /* Adding left margin */
+  margin-right: auto; /* Adding right margin */
+  padding-left: 100px; /* Adding left padding */
+}
+
+/* Styling images within food of the month section */
+.food_of_the_month img {
+  width: 588px; /* Setting width */
+  height: 645px; /* Setting height */
+  margin-bottom: 120px; /* Adding bottom margin */
+  border-radius: 20px; /* Adding border radius */
+  justify-content: center; /* Centering content horizontally */
+}
+
+/* Adding hover effect to images within food of the month section */
+.food_of_the_month img:hover {
+  transition: 0.3s linear; /* Adding transition */
+  transform: scale(1.1); /* Scaling on hover */
+}
+
+/* Styling text within food of the month section */
+.food_of_the_month h1,
+.food_of_the_month p {
+  width: 579px; /* Setting width */
+  color: #332929; /* Setting text color */
+}
+
+.food_of_the_month h1 {
+  font-size: 36px; /* Setting font size */
+  font-weight: 900; /* Setting font weight */
+  margin-bottom: 50px; /* Adding bottom margin */
+}
+
+.food_of_the_month p {
+  font-size: 18px; /* Setting font size */
+  font-weight: 5; /* Setting font weight */
+  margin-right: 50px; /* Adding right margin */
+  text-align: left; /* Aligning text */
+  margin-bottom: 40px; /* Adding bottom margin */
+  margin-top: 10px; /* Adding top margin */
+}
+
+/* Styling button within food of the month section */
+.food_of_the_month button {
+  width: 200px; /* Setting width */
+  height: 55px; /* Setting height */
+  padding: 20px; /* Adding padding */
+  font-size: 24px; /* Setting font size */
+  font-weight: 600; /* Setting font weight */
+  border-radius: 5px; /* Adding border radius */
+  background-color: #b89d88; /* Setting background color */
+  color: #fff; /* Setting text color */
+  padding: 10px; /* Adding padding */
+  margin-bottom: 50px; /* Adding bottom margin */
+  border-color: black; /* Setting border color */
+}
+
+/* Adding hover effect to button within food of the month section */
+.food_of_the_month button:hover {
+  width: 200px; /* Setting width */
+  height: 50px; /* Setting height */
+  padding: 20px; /* Adding padding */
+  font-size: 24px; /* Setting font size */
+  font-weight: 600; /* Setting font weight */
+  border-radius: 5px; /* Adding border radius */
+  background-color: #000000; /* Changing background color */
+  color: #fff; /* Setting text color */
+  padding: 10px; /* Adding padding */
+  margin-bottom: 50px; /* Adding bottom margin */
+  border-color: black; /* Setting border color */
+}
+
+/*this is for the slider part*/
+
+.carousel {
+  width: auto;
+  height: 849px;
+  background-color: #eeeeee;
+  height: 700px;
+}
+
+.carasoul_heading {
+  width: 500px;
+  height: 100px;
+  justify-content: center;
+  margin-left: 600px;
+  text-align: center;
+  margin-top: 30px;
+  line-height: 50px;
+}
+
+.arrow-right {
+  margin-left: 1200px;
+  margin-top: 50px;
+  width: 35px;
+  height: 35px;
+}
+
+.within_carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-left: 255px;
+  width: 1000px;
+  height: 400px;
+  cursor: pointer;
+}
+
+.slider {
+  display: flex;
+  overflow-x: auto; /*hides image that are overflowing*/
+  scroll-snap-type: x mandatory; /*sets how strictly the scroll snap is to be made*/
+  scroll-behavior: smooth;
+  box-shadow: rgba(0, 0, 0, 0.247);
+  margin-bottom: 10px;
+}
+
+.slider::-webkit-scrollbar {
+  width: 0 !important;
+} /*hides the horizontal scrollbar*/
+
+.card {
+  background-image: url(image/buger.jpg);
+  opacity: 0.9;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+  margin: 10px;
+  /* border-radius: 10px; */
+  height: 300px;
+  width: 600px;
+  transition: transform 0.2s ease;
+  box-shadow: 5px 10px 18px #a3a3a3a8;
+  flex: 1 0 80%;
+  border-radius: 50px;
+}
+
+.card img {
+  margin-left: 30px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+.card p {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+/*This is for the last section where it has an image and a video galery */
+
+.container .heading,
+.image_gallery .heading {
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: black;
+  font-weight: 900;
+  margin: 5px;
+  padding: 3px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.video-container .video {
+  width: 350px;
+  height: 300px;
+  overflow: hidden;
+  margin: 50px;
+  border-radius: 10px;
+}
+
+.video-container .video video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.video-container .video video:hover {
+  transition: 0.2s linear;
+  transform: scale(1.1);
+}
+
+.video-container .video .active {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: auto;
+  width: 80%;
+  z-index: 1;
+  border-radius: 50px;
+}
+.video-container .video .active:hover {
+  transition: none;
+  transform: translate(-50%, -50%) scale(1);
+  border-radius: 50px;
+}
+
+.image_gallery .heading {
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.image_gallery .photo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image_gallery .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-left: 80px;
+  width: 800px; /* Adjust as needed */
+}
+
+.image_gallery .photo {
+  width: calc(33.33% - 20px); /* 33.33% width with 20px margin between photos */
+  margin-bottom: 20px;
+  max-width: 300px; /* Set a fixed width for each photo container */
+  position: relative;
+}
+
+.image_gallery .photo img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.image_gallery .photo h1 {
+  position: absolute;
+  top: 50%;
+  width: 200px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  opacity: 0;
+}
+.image_gallery .photo img:hover,
+.image_gallery .photo img:hover + h1 {
+  transition: 0.2s linear;
+  transform: scale(1.03);
+  opacity: 1;
+}
+
+/*footer code */
+.footer {
+  margin-top: 150px;
+  background-color: #eeeeee;
+  padding: 40px 30px;
+  display: flex;
+  height: 310px;
+  justify-content: space-evenly;
+}
+
+.column1 {
+  font-family: "Poppins", sans-serif;
+  display: flex-start;
+  margin-right: 100px;
+  width: 300px;
+}
+.column1 h1 {
+  color: black;
+  font-family: "Sora";
+  font-size: 50px;
+  margin-top: 15px;
+}
+
+.mailing_service input {
+  width: 300px;
+  height: 45px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-right: 5px;
+  outline: none;
+  border: none;
+  display: flex;
+}
+.mailing_service p {
+  margin-top: 10px;
+}
+
+.mailing_service button {
+  background-color: #fff;
+  text-align: center;
+  padding: 12px 20px;
+  /* border-radius: 30px; */
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.mailing_service button:hover {
+  background-color: #000000;
+  color: #fff;
+  font-weight: bolder;
+}
+.mailing_service h3 {
+  margin-bottom: 0px;
+  font-family: "Poppins";
+  color: black;
+}
+#subscribe:active {
+  opacity: 0.67;
+}
+
+.page_navigator {
+  margin-top: 20px;
+  margin-right: 50px;
+  width: 130px;
+  margin-right: 100px;
+}
+.page_navigator a {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 800;
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 5px;
+  cursor: pointer;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  padding-top: 10px;
+}
+
+.page_navigator a:hover {
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+}
+
+.page_navigator:active {
+  opacity: 0.67;
+}
+
+.social_handels {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  height: 190px;
+  margin-right: 200px;
+
+  width: 110px;
+}
+.social_handels h3,
+.mailing_service h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icons a {
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 15px;
+  color: #000000;
+  display: inline-block;
+  transition: transform 0.5s;
+  cursor: pointer;
+  transition-property: transform;
+  transition-duration: 0.3s;
+}
+
+.icons a:hover {
+  transform: translateY(-3px);
+}
+
+.icons:active {
+  opacity: 0.7;
+}
+
+#top {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 500px;
+  left: 30px;
+  z-index: 9; /* Make sure it does not overlap */
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 7px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: transform 0.2s ease;
+}
+
+#top:hover {
+  opacity: 0.8;
+  transform: translateY(-2px);
+}
+
+#top:active {
+  opacity: 0.67;
+}
+
+
+/* this below mentioned media query are all similar to the above css and chnages are made to make it fit in the required media field*/
+@media screen and (max-width: 768px) {
+  .hero_section {
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero_section img {
+    max-width: 200px;
+    height: auto;
+    padding-top: 50px;
+  }
+
+  .hero_text h1 {
+    max-width: 400px;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: normal;
+  }
+  .hero_text p {
+    max-width: 400px;
+    font-size: 15px;
+    letter-spacing: normal;
+  }
+
+  /* this is the end for the landing or the hero section*/
+  .mid_section {
+    background-image: url(image/bg3.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title {
+    width: 90%;
+    text-align: center;
+  }
+  .title p {
+    text-align: center;
+    padding-right: 40px;
+    margin-left: 0px;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    width: 400px;
+    height: 1000px;
+    margin-bottom: 100px;
+  }
+  .box .row_feature .text {
+    background-color: #fff;
+    width: 250px;
+    height: 50px;
+  }
+  .box .row_feature .text h2 {
+    font-size: 20px;
+    text-align: left;
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+  }
+  .box .row_feature .text p {
+    font-size: 20px;
+    text-align: left;
+    color: #000000;
+    font-weight: 600;
+  }
+
+  .About {
+    width: 400px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+
+  .about-col-1 img {
+    width: 200px;
+    height: auto;
+    margin-left: 100px;
+  }
+
+  .about-col-2 {
+    max-width: 400px;
+    height: auto;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+  }
+  .about-col-2 p {
+    max-width: 400px;
+  }
+
+  .tab-titles p {
+    font-size: 10px;
+    text-align: left;
+    color: #000000;
+    font-weight: 500;
+  }
+
+  .tab-contents h2 {
+    height: 50px;
+    margin-left: 100px;
+  }
+
+  .chefs .chef_list {
+    width: 1080px;
+    height: 800px;
+    margin: 0 auto;
+    padding-top: 100px;
+    display: grid;
+    justify-content: center;
+  }
+  .title2 {
+    margin-bottom: 10px;
+  }
+  /* this is for the food of the month */
+
+  .food_month {
+    width: 900px;
+    align-items: left;
+    margin-top: 90px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+  }
+
+  .food_of_the_month img {
+    width: 200px;
+    height: 300px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+    padding-left: 10px;
+    border-radius: 20px;
+    justify-content: center;
+  }
+
+  .food_of_the_month h1 {
+    width: 200px;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+  .food_of_the_month h2 {
+    font-size: 17px;
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+  .food_of_the_month p {
+    width: 200px;
+    color: black;
+    font-size: 15px;
+    font-weight: 5;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  .food_of_the_month button {
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 5px;
+    color: #fff4f4;
+    background-color: #332929;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  /*this is for the slider part*/
+
+  .carousel {
+    background-color: #eeeeee;
+  }
+
+  .carasoul_heading {
+    width: 400px;
+    height: 100px;
+    justify-content: center;
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 30px;
+    line-height: 50px;
+  }
+
+  .arrow-right {
+    margin-left: 340px;
+    margin-top: 50px;
+    width: 35px;
+    height: 35px;
+  }
+
+  .within_carousel {
+    display: flex;
+    justify-content: left;
+    position: relative;
+    margin-left: 0px;
+    width: 700px;
+    height: 400px;
+    cursor: pointer;
+  }
+
+  .slider {
+    display: flex;
+    overflow-x: auto; /*hides image that are overflowing*/
+    scroll-snap-type: x mandatory; /*sets how strictly the scroll snap is to be made*/
+    scroll-behavior: smooth;
+    box-shadow: rgba(0, 0, 0, 0.247);
+    margin-bottom: 10px;
+  }
+
+  .slider::-webkit-scrollbar {
+    width: 0 !important;
+  } /*hides the horizontal scrollbar*/
+
+  .card img {
+    margin-left: 30px;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+
+  .background_slider .within_carousel .card p {
+    width: 300px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 15px;
+    margin-left: 0px;
+    text-align: left;
+  }
+
+  /* this is for the image */
+
+  .image_gallery .photo-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .image_gallery .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 0px;
+    width: 800px; /* Adjust as needed */
+  }
+
+  .image_gallery .photo {
+    width: calc(
+      33.33% - 20px
+    ); /* 33.33% width with 20px margin between photos */
+    margin-bottom: 20px;
+    max-width: 300px; /* Set a fixed width for each photo container */
+    position: relative;
+  }
+
+  .image_gallery .photo img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  .image_gallery .photo h1 {
+    position: absolute;
+    top: 50%;
+    width: 120px;
+    background-color: black;
+    color: white;
+    opacity: 0;
+    font-size: 20px;
+  }
+  .image_gallery .photo img:hover,
+  .image_gallery .photo img:hover + h1 {
+    transition: 0.2s linear;
+    transform: scale(1.03);
+    opacity: 1;
+  }
+  #top {
+    position: fixed; /* Fixed/sticky position */
+    bottom: 400px;
+    left: 10px;
+    z-index: 9; /* Make sure it does not overlap */
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 7px 14px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: transform 0.2s ease;
+  }
+
+  #top:hover {
+    opacity: 0.8;
+    transform: translateY(-2px);
+  }
+
+  #top:active {
+    opacity: 0.67;
+  }
+
+  /*footer code */
+  .page_navigator {
+    display: none; /* Hide page navigator */
+  }
+
+  .footer {
+    flex-direction: column; /* Change to column layout */
+    align-items: center; /* Center align items */
+    margin-top: 10px; /* Adjusted margin for smaller screens */
+    height: 600px;
+  }
+
+  .social_handels {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    margin-right: 20px;
+    margin-right: 0; /* Adjusted margin for smaller screens */
+    margin-top: 0px; /* Add margin to separate from column 1 */
+    width: 400px;
+    height: 50px;
+    margin-bottom: 0px;
+  }
+  .social_handels h3 {
+    display: none;
+  }
+
+  .icons {
+    display: inline-block;
+    justify-content: center;
+    margin-left: 110px;
+  }
+
+  .icons a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #000000;
+    transition: transform 0.5s;
+    cursor: pointer;
+    transition-property: transform;
+    transition-duration: 0.3s;
+  }
+
+  .icons a:hover {
+    transform: translateY(-3px);
+  }
+
+  .icons:active {
+    opacity: 0.7;
+  }
+
+  .column1 {
+    margin-right: 0; /* Adjusted margin for smaller screens */
+    margin-bottom: 0px; /* Add margin to separate from social handles */
+    width: 300px;
+    text-align: center;
+  }
+  .column1 p {
+    display: none;
+  }
+
+  .column1 h1 {
+    color: black;
+    font-size: 40px;
+  }
+  .mailing_service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+
+  .mailing_service input {
+    width: 300px;
+    height: 45px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    outline: none;
+    border: none;
+    display: flex;
+  }
+  .mailing_service p {
+    text-align: center;
+    width: 300px;
+    letter-spacing: 0.54px;
+  }
+
+  .mailing_service button {
+    background-color: #fff;
+    text-align: center;
+    padding: 12px 20px;
+    /* border-radius: 30px; */
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 80px;
+  }
+
+  .mailing_service button:hover {
+    background-color: #000000;
+    color: #fff;
+    font-weight: bolder;
+  }
+
+  #subscribe:active {
+    opacity: 0.67;
+  }
+
+  .mailing_service h3 {
+    margin-bottom: 0px;
+    font-family: "Poppins";
+    color: black;
+    font-size: 25px;
+  }
+}

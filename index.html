@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2f3a268b27.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+    <title>Food hub</title>
+</head>
+<body>
+    <!--This is the hero section or the landing page -->
+    <Section class="hero_section">
+        <div class="hero_text">
+        <h1>Explore Gourmet Bliss : When Ever and  whatever <br> you desire.</h1>
+        <p> Unleash your cravings and dive into a realm of Gourmet Bliss. With us, indulge anytime,
+             anywhere, in culinary creations that redefine satisfaction.</p>
+        <button id="moreButton">View More </button></a>
+        </div>
+
+        <img src="image/main_img.png">
+    </Section>
+
+
+    <!--This is the mid section or the section after the hero section-->
+<div class="mid_section">
+       
+    <div class="title"  id="titleSection">
+        <h1 >Endless Varieties. </h1>
+        <p>Delve into a realm of opulence with an infinite array of indulgent varieties.</p>
+    </div>
+
+    
+    
+    <div class="box">
+       <!-- This indicates the features of the row --> 
+    <div class="row_feature">
+        <img class="image-container" src="image/hero-image/sandwich.jpg" alt="Image 1">
+        <div class="text">
+            <h2>Club sandwich</h2>
+           
+        </div>
+        
+    </div>
+    <!-- This indicates the features of the row --> 
+    <div class="row_feature">
+        <img class="image-container" src="image/hero-image/gallary_5.jpg" alt="Image 1">
+        <div class="text">
+            <h2>Margarita Pizza</h2>
+            
+        </div>
+    </div>
+    <div class="row_feature">
+        <img class="image-container" src="image/hero-image/gallary_4.jpg" alt="Image 1">
+        <div class="text">
+            <h2>Blueberry Bread</h2>
+            
+        </div>
+    </div>
+    <!-- This indicates the features of the row --> 
+    <div class="row_feature">
+        <img class="image-container" src="image/hero-image/gallary_3.jpg" alt="Image 1">
+        <div class="text">
+            <h2>Italian Cup-Cake</h2>
+            
+        </div>
+    </div>
+    </div>
+
+    <!-- This is the about section --> 
+    <div class="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                        <img class="o1" src="image/high2.jpg"> 
+                </div><!-- this is another profile picture of the food -->
+                        
+    
+                <div class="about-col-2">
+                     <h1 class="sub-tittle"> 
+                        <span style="color:#ff004f ;"> O</span>ur
+                         <span style="color:#ff004f ;"> B</span>est 
+                         <span style="color:#ff004f ;"> S</span>ellers.
+                    </h1>
+                    <p>Where each dish is crafted to perfection and guaranteed to tantalize
+                         <br> taste buds. Explore our best sellers 
+                    </p>
+                    <!--This navigates the other images by clicking the other text fields -->
+                    <div class="tab-titles">
+                        <P class="tab-links active-link" onclick="opentab('food1')">Chicken salad</P>
+                        <P class="tab-links"onclick="opentab('food2')">Muddy stake</P>
+                        <P class="tab-links"onclick="opentab('food3')">Ramen</P>
+                    </div>
+                    <!-- This is the content of the recipe --> 
+                    <div class="tab-contents active-tab" id="food1">
+                        <ul >
+                            <li><h2>Recipe</h2></li>
+                            <li>1. Cook and shred chicken.</li>
+                            <li>2. Dice celery and slice grapes.</li>
+                            <li>3. Chop pecans.</li>
+                            <li>4. Mix chicken, celery, grapes, and pecans in a bowl.</li>
+                            <li>5. Add mayonnaise, lemon juice, salt, and pepper.</li>
+                            <li>6. Toss until well combined. Serve chilled. </li>
+                        </ul>
+                        <button class="order_button" id="order_now">order now</button>
+                    </div>
+                    <div class="tab-contents" id="food2">
+                        <ul>
+                             <!-- This is the content of the recipe --> 
+                            <li><h2>Recipe</h2></li>
+                            <li>1. Preheat grill or pan to high heat.</li>
+                            <li>2. Season steak with salt and pepper.</li>
+                            <li>3.Place steak on grill or pan and cook for 3-4 minutes on each side for medium-rare.</li>
+                            <li>4. Allow steak to rest for a few minutes. </li>
+                            <li>5. Slice steak against the grain for tenderness.</li>
+                            <li>6. Serve hot with your favorite side dish. </li>
+                        </ul>
+                        <button class="order_button" id="order_now1">order now</button>
+                    </div>
+                    <div class="tab-contents" id="food3">
+                        <ul>
+                            <li><h2>Recipe</h2></li>
+                             <!-- This is the content of the recipe --> 
+                            <li>1. Boil water in a pot.</li>
+                            <li>2. Add ramen noodles and cook according to package instructions.</li>
+                            <li>3. While noodles cook, prepare broth by heating broth or water with seasoning packet.</li>
+                            <li>4. Once noodles are cooked, drain and rinse under cold water.</li>
+                            <li>5. Place noodles in a bowl and pour hot broth over them.</li>
+                            <li>6. Add desired toppings such as sliced vegetables, boiled egg, and sliced meat. Serve hot.</li>
+                                
+                        </ul>
+                        <button class="order_button" id="order_now2">order now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button onclick="redirectFunction()" id="top" title="Go to top">&#x2191;</button>
+
+
+    
+
+    <div class="title2" >
+        <h1 style="font-size: 42px;">
+            <span style="color:#ff004f ;"> O</span>ur 
+            <span style="color:#ff004f ;"> C</span>hef<span style="color:#ff004f ;">'</span>s
+        </h1>
+    </div>
+
+    <div class="chefs">
+       <!--These are the images of the chef -->
+        <div class="chef_list">
+            <div class="profile">
+                <img src="image/Chefs/chef1.png">
+
+                <div class="info1">
+                    <h1>Benjamin Scott</h1> 
+                </div>
+                <div class="info">
+                    <h2 class="name">Chef</h2>
+                    <p class="bio">American Chef from new Jersey.</p>
+                </div>
+
+            </div>
+            <!--These are the images of the chef -->
+            <div class="profile">
+                <img src="image/Chefs/chef2.png">
+                <div class="info1">
+                    <h1>Emily Chang</h1> 
+                </div>
+                <div class="info">
+                    <h2 class="name">Chef</h2>
+                    <p class="bio">Australian Chef from Sydeney .</p>
+                </div>
+
+            </div>
+
+            <div class="profile">
+                <img src="image/Chefs/chef3.jpg"><!--These are the images of the chef -->
+
+                <div class="info1">
+                    <h1>Marcus Williams</h1> 
+                </div>
+                <div class="info">
+                    <h2 class="name">Chef</h2>
+                    <p class="bio">Japanese Chef from Kyoto.</p>
+
+                </div>
+
+            </div>
+
+            <div class="profile">
+                <img src="image/Chefs/chef4.jpg"><!--These are the images of the chef -->
+                <div class="info1">
+                    <h1>Elijah Thompson</h1> 
+                </div>
+                <div class="info">
+                    <h2 class="name">Chef</h2>
+                    <p class="bio">African Chef from Nijeria.</p>
+
+                </div>
+
+            </div>
+
+            <div class="profile">
+                <img src="image/Chefs/chef5.jpg"><!--These are the images of the chef -->
+                <div class="info1">
+                    <h1>Jake Nguyen</h1> 
+                </div>
+                <div class="info">
+                    <h2 class="name">Chef</h2>
+                    <p class="bio">Italian Chef from rome </p>
+
+                </div>
+
+            </div>
+            <div class="profile">
+               
+                <img src="image/Chefs/chef6.jpg"><!--These are the images of the chef -->
+                
+                <div class="info1">
+                    <h1>Jordan Shrestha</h1> 
+                </div>
+                <div class="info">
+                    <h2 class="name">Chef</h2>
+                    <p class="bio">Italian Chef from new Venice.</p>
+
+                </div>
+                
+
+            </div>
+
+           
+
+        </div>
+
+    </div>
+
+    <div >
+        <button class="order_button" id="hire_one">
+            Hire One
+        </button>
+    </div>
+
+        
+    </div>
+
+<div class="food_month">
+
+    <!--This section is for the best food -->
+
+     <div  class="food_of_the_month">
+         <h1>
+            Dish of the month 
+         </h1>
+         
+         <h2>
+            Ramen
+         </h2>
+        <p>
+            Ramen, a beloved Japanese noodle dish, boasts a rich history and 
+            diverse variations. With its flavorful broth, springy noodles
+            , and an array of toppings ranging from tender slices of pork
+             to soft-boiled eggs, ramen tantalizes taste buds and offers
+              comfort in every slurp..
+            
+        </p>
+        <button id="order_now3">Order Now </button>
+    </div>
+    <div class="food_of_the_month">
+        <img src="image/high1.jpg" alt="food_of_the_month">
+    </div>
+
+
+
+    
+
+
+
+</div>
+     <!--card slider section-->
+     <div class="background_slider">
+        
+        <div class="carousel" style="margin-bottom: 35px;">
+            <!--image of icon indicating the direction to scroll towards-->
+            <div class="carasoul_heading">
+                <h1 style="font-size: 35px;">
+                    Listen to what our Customers 
+                </h1>
+
+                <h2 style="font-size: 32px;">
+                     Have to say 
+
+                </h2>
+
+            </div>
+            
+            <!--This is the card slider section where we can review the content by sliding throuth the pictures-->
+            <img  class="arrow-right"  src="image/44522.png" >
+
+            <div class="within_carousel">
+                
+                <div class="slider"> 
+                    <!--This is the card slider section where we can review the content by sliding throuth the pictures-->
+                    <div class="card">
+                        <img src="image/profile/profile-1.jpg" alt="img" >
+
+                        <p>The food by Food Hub surpassed all expectations.
+                             Each bite was a delightful explosion of flavors, and the 
+                             presentation was top-notch. Service was attentive and friendly,
+                              making our evening truly enjoyable.</p>
+                    </div>
+                    <div class="card">
+                        <img src="image/profile/profile-2.jpg" alt="img" width="320px" height="220px">
+                        <p>Our group thoroughly enjoyed the dining experience at Food Hub. 
+                            The food was delicious, with a diverse menu to cater to all tastes. Service
+                             was prompt and courteous, adding to the overall enjoyment of the evening</p>
+                    </div>
+                    <div class="card">
+                        <img src="image/profile/profile3.jpg" alt="img" width="320px" height="220px">
+                        <p>"From start to finish, our meal at Food Hub was a culinary delight. 
+                            The dishes were expertly prepared, showcasing the chef's talent and creativity. 
+                            Service was attentive without being intrusive, making it a memorable dining experience..</p>
+                    </div>
+                    <div class="card">
+                        <img src="image/profile/profile4.jpg" alt="img" width="320px" height="220px">
+                        <p>The food at Food Hub was exceptional, with each dish leaving us 
+                            craving for more. The service was outstanding, with staff members going above 
+                            and beyond to ensure our satisfaction. Definitely a must-visit for food enthusiasts</p>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="image/profile/profile5.jpg" alt="img" width="320px" height="220px">
+                        <p>At Food Hub, we were treated to an unforgettable dining experience.
+                             The food was outstanding, with bold flavors and beautiful presentation.
+                              Service was impeccable, with the staff paying attention to every detail
+                               to make our evening truly special.</p>
+                    </div>
+
+                </div>
+              
+               
+            </div>      
+        </div>
+
+     </div>
+
+
+
+    <div class="container">
+        <!--This contains the videos sent by the user or the customers that are displayed when clicked upon them -->
+
+        <div class="heading"> From Our Customers<br>Videos</div>
+        <div class="video-container">
+            
+            <div class="video">
+                <video src="videos/video (2160p).mp4" muted></video>
+            </div>
+            
+            <div class="video">
+                <video src="videos/video (1080p).mp4" muted></video>
+            </div>
+    
+        </div> 
+    
+    </div>
+    <!--This is the image gallery contains all the picture sent by the user-->
+    <div class="image_gallery">
+        <div class="heading">Pictures</div>
+        <div class="photo-container">
+            <div class="row">
+                <div class="photo">
+                    <img src="image/image-gallery/burger-g.jpg">
+                    <h1 class="overlay"> Burger</h1>
+                </div>
+                <div class="photo">
+                    <img src="image/image-gallery/butterchicken.jpg">
+                    <h1 >B.chicken</h1>
+                </div>
+                <div class="photo">
+                    <img src="image/image-gallery/gallary_2.jpg">
+                    <h1 >Cup-Cake</h1>
+                </div>
+                <div class="photo">
+                    <img src="image/image-gallery/high3.jpg">
+                    <h1 >Sushi</h1>
+                </div>
+                <div class="photo">
+                    <img src="image/image-gallery/pasta.jpg">
+                    <h1 >Pasta</h1>
+                </div>
+                <div class="photo">
+                    <img src="image/image-gallery/pizza.jpg">
+                    <h1 >Pizza</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer" id="join">
+        <!--This is the footer Section of the page -->
+        <div class="column1">
+            
+            <h1 >
+                <span style="color:#ff004f ;"> F</span>OO<span style="color:#ff004f ;">D</span>
+                <span style="color:#ff004f ;"> H</span>U<span style="color:#ff004f ;">B</span>
+            </h1>  
+            <p> Indulge your senses and savor the<br> flavors of our gastronomic offerings-<br>your taste buds will thank you.</p>        
+        </div>
+
+
+        <div class="page_navigator">
+            <a href="#">Home</a>
+            <a href="">Learn More</a>
+            <a href="">Order Now</a>
+            <a href="">Hire Chef</a>
+            
+        </div>
+
+
+        <div class="social_handels">
+            <h3> Follow us</h3>
+            <div class="icons">
+                <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a style="margin-bottom: 5px;" href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+
+
+
+        <div class="mailing_service">
+            <h3 >Connect us with you mail!!</h3>
+            <p>Stay connected with exclusive updates<br> and special offers by joining our mailing list!</p>
+            <form name="mail" onsubmit="emailFunction();  return false;"><!-- making sure the page doesnt scroll back to top on click -->
+                <input type="text" name="email" placeholder="Email" >
+                <button type="submit" id="subscribe">Subscribe</button>
+            </form>
+        </div>
+        
+        
+        
+    </div>
+    
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    var imageElement = document.querySelector('.o1'); // Get the image element
+
+
+
+    function opentab(tabname) {
+        // Update the image source based on the tab clicked
+        switch (tabname) {
+            case 'food1':
+                imageElement.src = 'image/high2.jpg'; // Update with the food1 image path
+               
+                break;
+            case 'food2':
+                imageElement.src = 'image/high6.jpg'; // Update with the projects image path
+               
+                break;
+            case 'food3':
+                imageElement.src = 'image/high1.jpg'; // Update with the food3 image path
+               
+                break;
+            default:
+                break;
+        }
+
+        // Remove active classes from all tab links and contents
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+
+        // Add active classes to the clicked tab link and content
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+
+    
+
+
+
+
+var video=document.querySelectorAll('video')
+
+video.forEach(play => play.addEventListener('click',() => {
+
+    play.classList.toggle('active');
+
+    if(play.paused){
+        play.play();
+    }else{
+        play.pause();
+        play.currentTime=0;
+    }
+
+}));
+
+
+
+
+
+document.getElementById("moreButton").addEventListener("click", function() {
+        // Scroll to the "Title" section smoothly
+        document.getElementById("titleSection").scrollIntoView({ behavior: 'smooth' });
+    });
+
+    document.getElementById("order_now").addEventListener("click", function() {
+        // Scroll to the "Join our Mailing list!" section smoothly
+        document.getElementById("join").scrollIntoView({ behavior: 'smooth' });
+    });
+
+    document.getElementById("hire_one").addEventListener("click", function() {
+        // Scroll to the "Join our Mailing list!" section smoothly
+        document.getElementById("join").scrollIntoView({ behavior: 'smooth' });
+    });
+
+    document.getElementById("order_now1").addEventListener("click", function() {
+        // Scroll to the "Join our Mailing list!" section smoothly
+        document.getElementById("join").scrollIntoView({ behavior: 'smooth' });
+    });
+    document.getElementById("order_now2").addEventListener("click", function() {
+        // Scroll to the "Join our Mailing list!" section smoothly
+        document.getElementById("join").scrollIntoView({ behavior: 'smooth' });
+    });
+    document.getElementById("order_now3").addEventListener("click", function() {
+        // Scroll to the "Join our Mailing list!" section smoothly
+        document.getElementById("join").scrollIntoView({ behavior: 'smooth' });
+    });
+
+</script>
+
+    
+</body>
+</html>
